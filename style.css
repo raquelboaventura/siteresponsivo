@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+
+
+  font-family: verdana;
+  line-height: 1.4em;
+  font-family: 'Roboto', Verdana;
+}
+
+ul {
+  background-color: black;
+  list-style: none;
+  text-align: right;
+  padding: 15px;
+  margin: 0px;
+}
+
+ul li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  transition: all 0.4s;
+  background-position: -80px 17px;
+
+}
+
+ul li a:hover {
+  color: black;
+  background-color: white;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 17px;
+  background-size: 30px 30px;
+}
+
+ul li:nth-child(1) a:hover {
+  background-image: url('../img/html5.png');
+}
+
+ul li:nth-child(2) a:hover {
+  background-image: url('../img/css3.png');
+}
+
+ul li:nth-child(3) a:hover {
+  background-image: url('../img/javascript.png');
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-top: 60px;
+  transition: all 0.5s;
+}
+
+
+header h2 {
+  color: red;
+  font-size: 22px;
+  margin: 60px 0px;
+  transition: all 1s;
+}
+
+
+header img {
+  width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 1200px;
+}
+
+main .table {
+  background-color: rgba(239, 236, 236, 0.678);
+}
+
+table {
+  border-spacing: 20px;
+}
+
+table td {
+  text-align: center;
+}
+
+table td p {
+  padding: 0px;
+  margin: 0px;
+}
+
+main section {
+  padding: 30px;
+  text-align: justify;
+
+}
+
+#conteudo2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+main section p {
+  font-size: 13px;
+  margin: 30px;
+
+}
+
+#conteudo2 img {
+  width: 350px;
+
+}
+
+
+footer {
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
