@@ -1,20 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,900&display=swap');
+
 * {
-  box-sizing: border-box;
   margin: 0px;
+  font-family: 'Poppins', tahoma, verdana;
 }
 
-body {
+header img {
+  width: 100%;
+}
 
+header h1,
+header h2 {
+  text-align: center;
+  padding: 5px;
+}
 
-  font-family: verdana;
-  line-height: 1.4em;
-  font-family: 'Roboto', Verdana;
+header h1 {
+  font-size: 4px;
+}
+
+header h2 {
+  font-size: 3px;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  header img {
+    content: url('img/topoTablet.jpg');
+  }
+
+  header h1,
+  header h2 {
+    text-align: center;
+    padding: 5px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header h2 {
+    font-size: 18px;
+  }
+}
+
+/*Desktop/Computador*/
+@media screen and (min-width: 1024px) {
+  header img {
+    content: url('img/topoPC.jpg');
+  }
+
 }
 
 ul {
   background-color: black;
   list-style: none;
-  text-align: right;
+  text-align: center;
   padding: 15px;
   margin: 0px;
 }
