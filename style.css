@@ -5,23 +5,12 @@
   font-family: 'Poppins', tahoma, verdana;
 }
 
-header img {
-  width: 100%;
+
+main section:nth-child(odd) {
+  background-color: rgb(238, 238, 238);
 }
 
-header h1,
-header h2 {
-  text-align: center;
-  padding: 5px;
-}
 
-header h1 {
-  font-size: 4px;
-}
-
-header h2 {
-  font-size: 3px;
-}
 
 /*Tablet*/
 @media screen and (min-width: 768px) {
@@ -50,12 +39,30 @@ header h2 {
     content: url('img/topoPC.jpg');
   }
 
+  .tecnologias {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  .compras {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    width:1200px;
+    margin:auto;
+} 
+
 }
 
 ul {
   background-color: black;
   list-style: none;
-  text-align: center;
+  text-align: right;
   padding: 15px;
   margin: 0px;
 }
@@ -101,7 +108,7 @@ header {
 }
 
 header h1 {
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 60px;
   transition: all 0.5s;
 }
@@ -109,7 +116,7 @@ header h1 {
 
 header h2 {
   color: red;
-  font-size: 22px;
+  font-size: 18px;
   margin: 60px 0px;
   transition: all 1s;
 }
@@ -119,58 +126,48 @@ header img {
   width: 100%;
 }
 
-main {
-  margin: auto;
-  width: 1200px;
+container {
+  width: 100%;
 }
 
-main .table {
-  background-color: rgba(239, 236, 236, 0.678);
+.tecnologias p,
+.compras p {
+  font-size: 14px;
 }
 
-table {
-  border-spacing: 20px;
-}
-
-table td {
+.tecnologias {
   text-align: center;
-}
-
-table td p {
-  padding: 0px;
-  margin: 0px;
-}
-
-main section {
   padding: 30px;
-  text-align: justify;
-
-}
-
-#conteudo2 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-around;
+ 
 }
 
-main section p {
-  font-size: 13px;
-  margin: 30px;
-
+.tecnologias img {
+  width: 80px;
 }
 
-#conteudo2 img {
-  width: 350px;
-
+.tecnologias p {
+  padding: 20px;
+  margin: 15px 10px 35px 10px;
 }
 
+.compras {
+  display: flex;
+ 
+}
+
+.compras p {
+  text-align: justify;
+}
+
+.compras img {
+  width: 250px;
+}
 
 footer {
   background-color: black;
   padding: 40px;
   text-align: center;
   color: white;
-  font-size: 12px;
+
 }
